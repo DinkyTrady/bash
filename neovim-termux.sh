@@ -6,4 +6,4 @@ apt update -y && apt upgrade -y && pkg install git neovim ripgrep nodejs-lts cla
 echo "Finished installation!"
 
 echo "Now clone the repo and open neovim"
-git clone https:/github.com/DinkyTrady/nvim --depth=1 ~/.config/ && nvim
+git clone https://github.com/DinkyTrady/nvim --depth=1 ~/.config/nvim && nvim
