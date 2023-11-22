@@ -45,4 +45,7 @@ fi
 printf "\nGet .bashrc!"
 curl -O https://raw.githubusercontent.com/DinkyTrady/bash/main/.bashrc
 
-printf "\nRestart terminal first and open (neo)vim"
+termux-reload-settings
+
+printf "\nOpening (neo)vim!"
+nvim
